@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="AuditReportDataSet" targetNamespace="http://tempuri.org/AuditReportDataSet.xsd" xmlns:mstns="http://tempuri.org/AuditReportDataSet.xsd" xmlns="http://tempuri.org/AuditReportDataSet.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="MySettings" AppSettingsPropertyName="ReportConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="ReportConnectionString (MySettings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.ServiceTicker.My.MySettings.GlobalReference.Default.ReportConnectionString" Provider="System.Data.SQLite.EF6" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="dataGridviewTableAdapter" GeneratorDataComponentClassName="dataGridviewTableAdapter" Name="dataGridview" UserDataComponentName="dataGridviewTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="ReportConnectionString (MySettings)" DbObjectName="main.dataGridview" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="false" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT        dataGridview.*
+FROM            dataGridview</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="c1" DataSetColumn="c1" />
+              <Mapping SourceColumn="c2" DataSetColumn="c2" />
+              <Mapping SourceColumn="c3" DataSetColumn="c3" />
+              <Mapping SourceColumn="c4" DataSetColumn="c4" />
+              <Mapping SourceColumn="c5" DataSetColumn="c5" />
+              <Mapping SourceColumn="c6" DataSetColumn="c6" />
+              <Mapping SourceColumn="c7" DataSetColumn="c7" />
+              <Mapping SourceColumn="c8" DataSetColumn="c8" />
+              <Mapping SourceColumn="c9" DataSetColumn="c9" />
+              <Mapping SourceColumn="c10" DataSetColumn="c10" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="AuditReportDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="AuditReportDataSet" msprop:Generator_UserDSName="AuditReportDataSet">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="dataGridview" msprop:Generator_TableClassName="dataGridviewDataTable" msprop:Generator_TableVarName="tabledataGridview" msprop:Generator_TablePropName="dataGridview" msprop:Generator_RowDeletingName="dataGridviewRowDeleting" msprop:Generator_RowChangingName="dataGridviewRowChanging" msprop:Generator_RowEvHandlerName="dataGridviewRowChangeEventHandler" msprop:Generator_RowDeletedName="dataGridviewRowDeleted" msprop:Generator_UserTableName="dataGridview" msprop:Generator_RowChangedName="dataGridviewRowChanged" msprop:Generator_RowEvArgName="dataGridviewRowChangeEvent" msprop:Generator_RowClassName="dataGridviewRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="c1" msprop:Generator_ColumnVarNameInTable="columnc1" msprop:Generator_ColumnPropNameInRow="c1" msprop:Generator_ColumnPropNameInTable="c1Column" msprop:Generator_UserColumnName="c1" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="2147483647" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="c2" msprop:Generator_ColumnVarNameInTable="columnc2" msprop:Generator_ColumnPropNameInRow="c2" msprop:Generator_ColumnPropNameInTable="c2Column" msprop:Generator_UserColumnName="c2" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="2147483647" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="c3" msprop:Generator_ColumnVarNameInTable="columnc3" msprop:Generator_ColumnPropNameInRow="c3" msprop:Generator_ColumnPropNameInTable="c3Column" msprop:Generator_UserColumnName="c3" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="2147483647" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="c4" msprop:Generator_ColumnVarNameInTable="columnc4" msprop:Generator_ColumnPropNameInRow="c4" msprop:Generator_ColumnPropNameInTable="c4Column" msprop:Generator_UserColumnName="c4" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="2147483647" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="c5" msprop:Generator_ColumnVarNameInTable="columnc5" msprop:Generator_ColumnPropNameInRow="c5" msprop:Generator_ColumnPropNameInTable="c5Column" msprop:Generator_UserColumnName="c5" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="2147483647" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="c6" msprop:Generator_ColumnVarNameInTable="columnc6" msprop:Generator_ColumnPropNameInRow="c6" msprop:Generator_ColumnPropNameInTable="c6Column" msprop:Generator_UserColumnName="c6" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="2147483647" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="c7" msprop:Generator_ColumnVarNameInTable="columnc7" msprop:Generator_ColumnPropNameInRow="c7" msprop:Generator_ColumnPropNameInTable="c7Column" msprop:Generator_UserColumnName="c7" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="2147483647" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="c8" msprop:Generator_ColumnVarNameInTable="columnc8" msprop:Generator_ColumnPropNameInRow="c8" msprop:Generator_ColumnPropNameInTable="c8Column" msprop:Generator_UserColumnName="c8" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="2147483647" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="c9" msprop:Generator_ColumnVarNameInTable="columnc9" msprop:Generator_ColumnPropNameInRow="c9" msprop:Generator_ColumnPropNameInTable="c9Column" msprop:Generator_UserColumnName="c9" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="2147483647" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="c10" msprop:Generator_ColumnVarNameInTable="columnc10" msprop:Generator_ColumnPropNameInRow="c10" msprop:Generator_ColumnPropNameInTable="c10Column" msprop:Generator_UserColumnName="c10" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="2147483647" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

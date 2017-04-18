@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="snLabelDataSet" targetNamespace="http://tempuri.org/snLabelDataSet.xsd" xmlns:mstns="http://tempuri.org/snLabelDataSet.xsd" xmlns="http://tempuri.org/snLabelDataSet.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="MySettings" AppSettingsPropertyName="servicetickerConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="servicetickerConnectionString (MySettings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.ServiceTicker.My.MySettings.GlobalReference.Default.servicetickerConnectionString" Provider="MySql.Data.MySqlClient" />
+        </Connections>
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="snLabelDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="snLabelDataSet" msprop:Generator_UserDSName="snLabelDataSet">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="textLabel" msprop:Generator_TableClassName="textLabelDataTable" msprop:Generator_TableVarName="tabletextLabel" msprop:Generator_RowChangedName="textLabelRowChanged" msprop:Generator_TablePropName="textLabel" msprop:Generator_RowDeletingName="textLabelRowDeleting" msprop:Generator_RowChangingName="textLabelRowChanging" msprop:Generator_RowEvHandlerName="textLabelRowChangeEventHandler" msprop:Generator_RowDeletedName="textLabelRowDeleted" msprop:Generator_RowClassName="textLabelRow" msprop:Generator_UserTableName="textLabel" msprop:Generator_RowEvArgName="textLabelRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="text" msprop:Generator_ColumnVarNameInTable="columntext" msprop:Generator_ColumnPropNameInRow="text" msprop:Generator_ColumnPropNameInTable="textColumn" msprop:Generator_UserColumnName="text" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="snlable_id" msprop:Generator_TableClassName="snlable_idDataTable" msprop:Generator_TableVarName="tablesnlable_id" msprop:Generator_RowChangedName="snlable_idRowChanged" msprop:Generator_TablePropName="snlable_id" msprop:Generator_RowDeletingName="snlable_idRowDeleting" msprop:Generator_RowChangingName="snlable_idRowChanging" msprop:Generator_RowEvHandlerName="snlable_idRowChangeEventHandler" msprop:Generator_RowDeletedName="snlable_idRowDeleted" msprop:Generator_RowClassName="snlable_idRow" msprop:Generator_UserTableName="snlable_id" msprop:Generator_RowEvArgName="snlable_idRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="num_sn" msprop:Generator_ColumnVarNameInTable="columnnum_sn" msprop:Generator_ColumnPropNameInRow="num_sn" msprop:Generator_ColumnPropNameInTable="num_snColumn" msprop:Generator_UserColumnName="num_sn" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
